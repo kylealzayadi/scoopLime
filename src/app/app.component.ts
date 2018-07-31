@@ -16,7 +16,7 @@ import { HowtousePage } from '../pages/howtouse/howtouse';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = TabsPage;
+  rootPage:any = LoginPage;
   @ViewChild(Nav) nav;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, public menuCtrl: MenuController) {
@@ -42,6 +42,10 @@ export class MyApp {
     }
     toHowtouse() {
       this.nav.push(HowtousePage);
+      this.menuCtrl.close();
+    }
+    logout(){
+      this.nav.push(LoginPage);
       this.menuCtrl.close();
     }
   }

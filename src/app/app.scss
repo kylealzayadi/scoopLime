@@ -15,6 +15,12 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
+
+html, body, ion-app, ion-content, ion-page, .nav-decor {
+    background-color: transparent !important;
+  }
+
+  
 .spacing {
     margin-top: 60px;
     text-align: left;
@@ -22,22 +28,6 @@
     
 }
 
-#pm{
-    height: 40px;
-    width: 40px;
-}
-#hy{
-    height: 40px;
-    width: 40px;
-}
-#qm{
-    height: 40px;
-    width: 40px;
-}
-#pi{
-    height: 40px;
-    width: 40px;
-}
 
 .icon-center {
     height: 37px;
@@ -53,4 +43,26 @@
 #yt{
     background: transparent;
     font-size: 22px;
+
 }
+
+#yt1{
+    background: transparent;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.tab-button{
+    color: #74C164!important;
+}
+
+.tab-button-icon{
+    color: #74C164 !important;
+}
+#hamburger{
+    color: green;
+}
+ion-sidemenu{
+color: green;
+}
+

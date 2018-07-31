@@ -1,30 +1,49 @@
 <ion-header>
-  <ion-navbar>
-      <ion-buttons start>
-          <button ion-button icon-only menuToggle>
-            <ion-icon name="menu"></ion-icon>
-          </button>
-        </ion-buttons>
+  <ion-navbar color="navColor">
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="toHowtouse()">
+            <ion-icon name="md-help"></ion-icon>
+        </button>
+      </ion-buttons>
     <ion-title id="title">
-      Progress
+      Progression
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
- 
-  <img id="coin" src="../../assets/imgs/APP Logo.png">
-  
-  <div class="progress-outer">
-      <div class="progress-inner" [style.width]="progress + '%'">
-          {{100}}%
-      </div>
-      <div>
-<ul *ngFor="let p of pictures">
-    <img id="pics" src="{{p}}" width="100px" height="100px">
     
-</ul>
-      </div>
-  </div>
+ <div>
+   <h1 id="hb">Amount of Scoop Coins</h1>
   
+  <img id="love" src="https://image.winudf.com/v2/image/aW4uc3dlYXRjby5hcHBfaWNvbl8xNTMxOTk2NTYyXzA2Ng/icon.png?w=170&fakeurl=1&type=.png">
+ </div>
+ <hr width="700" size="10">
+  <div class="progress-outer" *ngIf="show">
+    <div class="progress-inner" [style.width]="percent + '%'" >
+      {{percent}}%
+</div>
+
+  </div>
+  <div>
+<u>
+  
+</u>
+<hr width="700" size="10">
+
+  </div>
+ <!-- <div>
+   <img src="https://www.visitgozo.com/wp-content/uploads/2017/03/Blackline.png">
+ </div> -->
+  <div>
+    <ul *ngFor="let p of pictures">
+      <img id="pics" src="{{p}}" width="100px" height="100px">
+    </ul>
+  </div>
+
 </ion-content>

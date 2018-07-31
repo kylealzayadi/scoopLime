@@ -6,20 +6,20 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-buttons start>
+  <ion-navbar color="navColor">
+    <!-- <ion-buttons start>
       <button ion-button icon-only menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
-    </ion-buttons>
-    <ion-title>QR Code</ion-title>
+    </ion-buttons> -->
+    <ion-title id="titli">Scoop Cam</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-  <ion-item>
+  <!-- <ion-item>
     <ion-input type="text" placeholder="My QR data" [(ngModel)]="qrData">
 
     </ion-input>
@@ -29,11 +29,14 @@
   </button>
   <button ion-button full icon-left (click)="scanCode()">
     <ion-icon name="qr-scanner"> Scan Code</ion-icon>
-  </button>
-  <button ion-button full icon-left (click)="takePhoto()">
-      <ion-icon name="barcode"> Take Picture</ion-icon>
-    </button>
-    
+  </button> -->
+  <!-- <button id="pic" ion-button  icon-left (click)="takePhoto()">
+      <ion-icon name="barcode" id="icon"> Take Picture</ion-icon>
+    </button>  -->
+    <img id="cam" src="http://cdn.onlinewebfonts.com/svg/img_168224.png" (click)="takePhoto()">
+      <div *ngIf="picture" id="picture">
+    <img [src]="picture" alt="">
+  </div>
   <!-- <img src="{{img}}"> -->
   <ion-card *ngIf="createdCode">
     <ngx-qrcode [qrc-value]="createdCode"></ngx-qrcode>

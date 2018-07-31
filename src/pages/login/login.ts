@@ -23,8 +23,9 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
   }
 
-  goLogin(){
-this.navCtrl.push(TabsPage);
-  }
 
+
+  goLogin() {
+    this.navCtrl.push(TabsPage)
+  }
 }

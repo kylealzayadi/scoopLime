@@ -1,13 +1,16 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="navColor">
     <ion-buttons start>
       <button ion-button icon-only menuToggle>
         <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
-    <img id="title" src="../../assets/imgs/APP Logo.png">
-       <ion-title id="title"> </ion-title>
-       
+    <ion-buttons end>
+    <button ion-button icon-only (click)="toHowtouse()">
+        <ion-icon name="md-help" ></ion-icon>
+    </button>
+  </ion-buttons>
+       <ion-title id="title">Scoop Map </ion-title>
   </ion-navbar>
 </ion-header>
 

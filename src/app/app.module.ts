@@ -23,6 +23,7 @@ import {HowtousePage} from '../pages/howtouse/howtouse'
 import { NavController } from 'ionic-angular';
 import { Screenshot } from '../../node_modules/@ionic-native/screenshot';
 import { DatabaseProvider } from '../providers/database/database';
+import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, CameraPreviewDimensions } from '@ionic-native/camera-preview';
 
 @NgModule({
   declarations: [
@@ -67,6 +68,7 @@ import { DatabaseProvider } from '../providers/database/database';
     Camera,
     BarcodeScanner,
     Screenshot,
+    CameraPreview,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     DatabaseProvider
   ]

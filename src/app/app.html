@@ -1,4 +1,4 @@
-<ion-menu [content]="content">
+<ion-menu id="hamburger" [content]="content">
 
         <ion-content padding>
                 <div class="spacing">
@@ -12,6 +12,7 @@
                                 </button>
                         </div>
                 </div>
+                <hr width="700" size="10">
                 <div class="spacing">
                         <div class="img">
                                 <img class="icon-center" src="https://image.flaticon.com/icons/png/512/14/14281.png">
@@ -23,6 +24,7 @@
                                 </button>
                         </div>
                 </div>
+                <hr width="700" size="10">
                 <div class="spacing">
                         <div class="img">
                                 <img class="icon-center" src="https://www.shareicon.net/download/2016/11/14/852469_history.svg">
@@ -34,7 +36,7 @@
                                 </button>
                         </div>
                 </div>
-
+                <hr width="700" size="10">
                 <div class="spacing">
                         <div class="img">
                                 <img class="icon-center" src="https://cdn2.iconfinder.com/data/icons/pictograms-3/512/25-512.png">
@@ -46,7 +48,18 @@
                                 </button>
                         </div>
                 </div>
+                <hr width="700" size="10"> 
+                <div class="spacing">
+                        <div class="img">
+                                <img class="icon-center" src="https://cdn2.iconfinder.com/data/icons/pictograms-3/512/25-512.png">
+                        </div>
+                        <div class="content">
+                                <button (click)="logout()" id="yt1" ion-button color="light">
 
+                                        Log out
+                                </button>
+                        </div>
+                </div>
         </ion-content>
 </ion-menu>
 

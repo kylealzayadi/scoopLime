@@ -3,12 +3,11 @@ page-contact {
         text-align: center;
     }
     #coin{
-        position: absolute;
+        position: relative;
         margin: auto;
         height: 200px;
-    width: 200px;
-   right: 105px;
-   top: 35px;
+        width: 200px;
+        display: block;
     }
     .progress-outer {
         width: 96%;
@@ -19,22 +18,44 @@ page-contact {
         border: 1px solid #dcdcdc;
         color: #fff;
         border-radius: 20px;
-        position: fixed;
-        top: 300px;
+        position: relative;
     }
  
     .progress-inner {
-        min-width: 15%;
+        width: 0;
         white-space: nowrap;
         overflow: hidden;
         padding: 5px;
         border-radius: 20px;
-        background-color: map-get($colors, primary);
+        background-color: green;
     }
     #pics{
         display: block;
         float: left;
         margin-right: 5px;
-    }
+ }
+ #hl{
+     text-align: center;
+ }
+ hr{
+     height: 100px;
+ }
+ #hb{
+     text-align: center;
+ }
+//  ion-content {
+//     background-image: url()
+// }
+#love{
+    position: relative;
+        margin: auto;
+        height: 200px;
+    width: 200px;
+   right: -105px;
+   
+}
+ion-icon{
+    color: white;
+}
 }
 

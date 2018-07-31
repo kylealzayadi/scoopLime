@@ -1,16 +1,22 @@
 page-home {
+    html, body, ion-app, ion-content, ion-page, .nav-decor {
+        background-color: white !important;
+      }
     #map_canvas{
         height: 100%;
         width: 100%;
         
                 
     }
-#title{
-    height: 50px;
-    width: 100px;
-    display: block;
-    margin-left: 105px;
-    margin-right: auto;
+// #title{
+//     height: 50px;
+//     width: 100px;
+//     display: block;
+//     margin-left: 105px;
+//     margin-right: auto;
+// }
+ion-icon{
+    color: white;
 }
 }
 
