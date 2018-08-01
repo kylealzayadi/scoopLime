@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="kyler.start" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>scoop</name>
+    <name>Scoop</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
@@ -142,6 +142,8 @@
     <allow-navigation href="http://10.27.16.214:8100" />
     <allow-navigation href="http://192.168.87.39:8100" />
     <allow-navigation href="http://10.27.11.183:8100" />
+    <allow-navigation href="http://169.254.150.72:8100" />
+    <allow-navigation href="http://169.254.182.110:8100" />
     <engine name="browser" spec="5.0.3" />
     <engine name="ios" spec="4.5.4" />
     <engine name="android" spec="7.0.0" />

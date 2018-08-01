@@ -24,7 +24,7 @@ html, body, ion-app, ion-content, ion-page, .nav-decor {
     
 text-align: left;
     display: flex;
-    
+    padding: 0 0;
 
   }
   #imgg{
@@ -55,6 +55,7 @@ text-align: left;
     font-weight: 600;
     margin-top: 10px;
     margin-left: -10px;
+    padding-left:40px;
     
 }
 
@@ -101,3 +102,22 @@ ion-menu{
 }
 
 
+
+.menu-inner ion-content{
+    padding: 16px 0 !important;
+}
+
+.menu-inner .scroll-content{
+    padding: 16px 0 !important;
+}
+
+#hrr{
+    width: 100%;
+    height: 2px;
+}
+
+
+.toolbar-title{
+    font-family: 'Khand', sans-serif !important;
+    font-size: 24px;
+}

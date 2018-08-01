@@ -26,12 +26,9 @@ export class ContactPage {
 
     if (this.pictures.length > 0) {
       this.pictures.filter((data) => {
-        this.percent += 10;
+        this.percent += 6;
 
       })
-      if(this.percent === 100){
-        this.percent = 10
-      }
       this.show = true;
       console.log('donw');
 

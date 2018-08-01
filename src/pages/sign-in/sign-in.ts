@@ -126,5 +126,9 @@ this.cameraPreview.stopCamera();
     
   }
 
+  goBack(){
+    this.navCtrl.pop();
+  }
+
 }
 
