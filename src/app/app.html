@@ -1,0 +1,64 @@
+<ion-menu id="hamburger" [content]="content">
+
+        <ion-content padding>
+                <div id="spacingg">
+                        <div>
+                                <img id="imgg" src="../assets/imgs/profilei.png">
+                        </div>
+                        <div>
+                                <button (click)="toProfile()" class="yt" ion-button color="light">
+
+                                        BAGEL
+                                </button>
+                        </div>
+                </div>
+                <hr id="hrr" width="700" size="10">
+                <div class="spacing">
+                        <div>
+                                <button (click)="toPayment()" id="yt2" ion-button color="light">
+                                        
+                                        PAYMENT
+                                </button>
+
+                        </div>
+                        <div>
+                                <img class="icon-center" src="../assets/imgs/payment.png">
+                        </div>
+
+                </div>
+
+                <div class="spacing">
+                        <div>
+                                <button (click)="toHowtouse()" id="yt3" ion-button color="light">
+
+                                        HOW TO USE
+                                </button>
+                        </div>
+                        <div>
+                                <img class="icon-center" src="../assets/imgs/questionmark.png">
+                        </div>
+
+                </div>
+                <div class="spacing">
+                        <div>
+                                <button (click)="logout()" id="yt1" ion-button color="light">
+
+                                        LOG OUT
+                                </button>
+                        </div>
+                        <div>
+                                <img class="icon-center" src="../assets/imgs/logouticon.png">
+                        </div>
+
+                </div>
+        </ion-content>
+</ion-menu>
+
+
+
+
+
+
+
+
+<ion-nav [root]="rootPage" #content></ion-nav>

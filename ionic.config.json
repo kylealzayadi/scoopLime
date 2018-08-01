@@ -1,0 +1,7 @@
+{
+  "name": "scoop",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

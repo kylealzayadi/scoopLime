@@ -1,0 +1,43 @@
+page-home {
+    html, body, ion-app, ion-content, ion-page, .nav-decor {
+        background-color: white !important;
+      }
+    #map_canvas{
+        height: 100%;
+        width: 100%;
+        
+                
+    }
+// #title{
+//     height: 50px;
+//     width: 100px;
+//     display: block;
+//     margin-left: 105px;
+//     margin-right: auto;
+// }
+ion-icon{
+    color: white;
+}
+#money{
+    height: 40px;
+    width: 40px;
+}
+#paw{
+    height: 130px;
+    width: 130px;
+    position: fixed;
+    top: 550px;
+    left: 143px;
+}
+#like{
+    background: transparent;
+}
+.toolbar{
+    height: 80px;
+}
+#title{
+    padding-top: 40px;
+}
+}
+
+

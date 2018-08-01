@@ -1,0 +1,81 @@
+page-contact {
+    #title {
+        text-align: center;
+    }
+    #coin{
+        position: relative;
+        margin: auto;
+        height: 200px;
+        width: 200px;
+        display: block;
+    }
+    .progress-outer {
+        width: 96%;
+        margin: 10px 2%;
+        padding: 3px;
+        text-align: center;
+        background-color: #f4f4f4;
+        border: 1px solid #dcdcdc;
+        color: #fff;
+        border-radius: 20px;
+        position: relative;
+    }
+ 
+    .progress-inner {
+        width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: green;
+    }
+    #pics{
+        display: block;
+        float: left;
+        margin-right: 5px;
+ }
+ #hl{
+     text-align: center;
+ }
+ hr{
+     height: 100px;
+ }
+ #hb{
+     text-align: center;
+ }
+//  ion-content {
+//     background-image: url()
+// }
+#love{
+    position: relative;
+        margin: auto;
+        height: 200px;
+    width: 200px;
+   right: -105px;
+   
+}
+ion-icon{
+    color: white;
+}
+#money{
+    position:relative;
+    width: 40px;
+    height: 40px;
+    bottom: 5px;
+    right: 5px;
+}
+#coins{
+    width: 30px;
+    height: 30px;
+}
+#navg{
+    background-color: #74C164;
+    height: 50px;
+}
+#hy{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+}
+
