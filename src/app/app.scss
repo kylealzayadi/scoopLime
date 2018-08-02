@@ -1,0 +1,136 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+html, body, ion-app, ion-content, ion-page, .nav-decor {
+    background-color: transparent !important;
+  }
+
+  #spacingg{
+    
+text-align: left;
+    display: flex;
+    padding: 0 0;
+
+  }
+  #imgg{
+    height: 80px;
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 5px
+  }
+.spacing {
+    margin-top: 60px;
+    text-align: left;
+    margin-left:50px;
+}
+
+
+.icon-center {
+    height: 50px;
+    width: 50px;
+    margin-top: -30px;
+    margin-left: 65px;
+}
+
+
+
+.yt{
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: -14px;
+    padding-left:36px;
+    font-family: 'Khand', sans-serif !important;
+    font-size: 40px;
+    
+}
+
+#yt1{
+    margin-left: -1px;
+    background: transparent;
+    color: white;
+    font-weight:600;
+    margin-top: -30px;
+    font-family: 'Khand', sans-serif !important;
+    font-size: 40px;
+}
+
+.tab-button{
+    color: black!important;
+}
+
+.tab-button-icon{
+    color:black !important;
+}
+#hamburger{
+    color: #74C164
+}
+ion-menu{
+    ion-content{
+    background-color: #74C164 !important;
+    }
+#yt2{
+    margin-left: -15px;
+    background: transparent;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    margin-top: -50px;
+    font-family: 'Khand', sans-serif !important;
+    
+}
+#yt3{
+    margin-left: -35px;
+    background: transparent;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Khand', sans-serif !important;
+    margin-top: -30px;
+}
+#julian{
+    height: 50px;
+    width: 50px;
+    margin-top: -30px;
+    margin-left: 70px;
+}
+
+}
+
+
+
+.menu-inner ion-content{
+    padding: 16px 0 !important;
+}
+
+.menu-inner .scroll-content{
+    padding: 16px 0 !important;
+}
+
+#hrr{
+    width: 100%;
+    height: 2px;
+}
+
+
+.toolbar-title{
+    font-family: 'Khand', sans-serif !important;
+    font-size: 26px;
+    
+}

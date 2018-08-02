@@ -1,0 +1,60 @@
+page-login {
+    html, body, ion-app, ion-content, ion-page, .nav-decor {
+        background-color: white !important;
+      }
+#title{
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#img-container{
+    margin-top: 80px;
+}
+
+.item{
+    border: none !important;
+}
+
+.item-inner{
+    border: none !important;
+}
+
+.text-input{
+    border-bottom: solid 0.55px black;
+    padding-bottom: 5px;
+}
+
+#login{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    margin: auto;
+    background-color: green;
+    border-radius: 5px;
+    padding: 0;
+}
+
+#register{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 0;
+    margin-right: 20px;
+}
+
+#btns{
+    width: 100%;
+    text-align: center;
+}
+#pp{
+    padding-top: 60px;
+}
+}
+

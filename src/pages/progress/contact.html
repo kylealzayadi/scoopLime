@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar color="navColor">
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <img id="money" src="assets/imgs/xicon.png">
+      </button>
+    </ion-buttons>
+    
+    <ion-title id="title">
+      SCOOP COINS
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    
+ <div >
+  
+  <img id="love" src="assets/imgs/pawpawanthony.png">
+  <h1 id="hb">{{percent}} SC</h1>
+ </div>
+ 
+  <!-- <div class="progress-outer" *ngIf="show">
+    <div class="progress-inner" [style.width]="percent + '%'" >
+      {{percent}}%
+    </div>
+</div> -->
+<div id="navg">
+  <h1 id="hy">RECENT SCOOPS</h1>
+</div>
+
+  
+  <div>
+<u>
+  
+</u>
+<hr width="700" size="10">
+
+  </div>
+ <!-- <div>
+   <img src="https://www.visitgozo.com/wp-content/uploads/2017/03/Blackline.png">
+ </div> -->
+  <div>
+    <ul *ngFor="let p of pictures">
+      <img id="pics" src="{{p}}" width="100px" height="100px">
+    </ul>
+  </div>
+
+</ion-content>
