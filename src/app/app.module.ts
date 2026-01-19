@@ -8,15 +8,12 @@ import { HomePage } from '../pages/home/home';
 import { Camera } from '@ionic-native/camera';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { SignInPage } from '../pages/sign-in/sign-in';
 import { GoogleMaps } from "@ionic-native/google-maps";
 import { Geolocation } from '@ionic-native/geolocation';
 import { NgxQRCodeModule} from 'ngx-qrcode2';
 import {BarcodeScanner} from '@ionic-native/barcode-scanner';
 import { ComponentsModule } from '../components/components.module';
 import { TabsPage } from '../pages/tabs/tabs';
-import {PaymentPage} from '../pages/payment/payment'
-import {ProfilePage} from '../pages/profile/profile'
 import { NavController } from 'ionic-angular';
 import { Screenshot } from '../../node_modules/@ionic-native/screenshot';
 import { DatabaseProvider } from '../providers/database/database';
@@ -27,10 +24,7 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     MyApp,
     ContactPage,
     HomePage,
-    SignInPage,
-    TabsPage,
-    ProfilePage,
-    PaymentPage
+    TabsPage
     
   ],
   imports: [
@@ -45,10 +39,7 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     MyApp,
     ContactPage,
     HomePage,
-    SignInPage,
-  TabsPage,
-  ProfilePage,
-  PaymentPage
+    TabsPage
     
   ],
   providers: [
