@@ -105,8 +105,5 @@
       "ios",
       "android"
     ]
-  },
-  "overrides": {
-    "node-sass": "npm:sass@^1.97.2"
   }
 }

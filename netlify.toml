@@ -3,7 +3,7 @@
   command = "npm ci && npm run build"
 
 [build.environment]
-  NODE_VERSION = "14.21.3"
+  NODE_VERSION = "20.17.0"
 
 [[redirects]]
   from = "/*"
