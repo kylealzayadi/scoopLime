@@ -1,9 +1,10 @@
 [build]
+  command = "npm rebuild node-sass && npm run build --legacy-peer-deps"
   publish = "www"
-  command = "npm ci && npm run build"
 
 [build.environment]
-  NODE_VERSION = "16.20.0"
+  NODE_VERSION = "14.21.3"
+  NPM_FLAGS = "--legacy-peer-deps --ignore-scripts"
 
 [[redirects]]
   from = "/*"
