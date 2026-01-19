@@ -2,6 +2,9 @@
   publish = "www"
   command = "npm ci --ignore-scripts && npm run build"
 
+[build.environment]
+  NODE_VERSION = "20.17.0"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
