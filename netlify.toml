@@ -1,9 +1,9 @@
 [build]
   publish = "www"
-  command = "npm ci --ignore-scripts && npm run build"
+  command = "npm ci && npm run build"
 
 [build.environment]
-  NODE_VERSION = "20.17.0"
+  NODE_VERSION = "14.21.3"
 
 [[redirects]]
   from = "/*"
