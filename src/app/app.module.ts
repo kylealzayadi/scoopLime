@@ -13,7 +13,7 @@ import { GoogleMaps } from "@ionic-native/google-maps";
 import { Geolocation } from '@ionic-native/geolocation';
 import { NgxQRCodeModule} from 'ngx-qrcode2';
 import {BarcodeScanner} from '@ionic-native/barcode-scanner';
-import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
+import { ComponentsModule } from '../components/components.module';
 import { TabsPage } from '../pages/tabs/tabs';
 import {LoginPage} from '../pages/login/login';
 import { HistoryPage } from '../pages/history/history';
@@ -31,7 +31,6 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     ContactPage,
     HomePage,
     SignInPage,
-    ProgressBarComponent,
     LoginPage,
     TabsPage,
     HistoryPage,
@@ -44,6 +43,7 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     BrowserModule,
     IonicModule.forRoot(MyApp),
     NgxQRCodeModule,
+    ComponentsModule,
 
   ],
   bootstrap: [IonicApp],
