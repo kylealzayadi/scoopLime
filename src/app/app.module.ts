@@ -15,7 +15,6 @@ import { NgxQRCodeModule} from 'ngx-qrcode2';
 import {BarcodeScanner} from '@ionic-native/barcode-scanner';
 import { ComponentsModule } from '../components/components.module';
 import { TabsPage } from '../pages/tabs/tabs';
-import {LoginPage} from '../pages/login/login';
 import {PaymentPage} from '../pages/payment/payment'
 import {ProfilePage} from '../pages/profile/profile'
 import { NavController } from 'ionic-angular';
@@ -29,7 +28,6 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     ContactPage,
     HomePage,
     SignInPage,
-    LoginPage,
     TabsPage,
     ProfilePage,
     PaymentPage
@@ -49,7 +47,6 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     HomePage,
     SignInPage,
   TabsPage,
-  LoginPage,
   ProfilePage,
   PaymentPage
     
