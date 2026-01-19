@@ -1,6 +1,6 @@
 [build]
   publish = "www"
-  command = "npm ci && npm run build"
+  command = "npm ci && rm -rf node_modules/@ionic/app-scripts/node_modules/node-sass && npm run build"
 
 [build.environment]
   NODE_VERSION = "20.17.0"
