@@ -1,5 +1,5 @@
 [build]
-  command = "npm rebuild node-sass && npm run build --legacy-peer-deps"
+  command = "npm rebuild node-sass && npm run build"
   publish = "www"
 
 [build.environment]
