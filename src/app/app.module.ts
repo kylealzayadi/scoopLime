@@ -4,7 +4,6 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { ContactPage } from '../pages/progress/contact';
 import { HomePage } from '../pages/home/home';
-import { SignInPage } from '../pages/sign-in/sign-in';
 
 import { Camera } from '@ionic-native/camera';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -25,8 +24,7 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     MyApp,
     ContactPage,
     HomePage,
-    TabsPage,
-    SignInPage
+    TabsPage
     
   ],
   imports: [
@@ -41,8 +39,7 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     MyApp,
     ContactPage,
     HomePage,
-    TabsPage,
-    SignInPage
+    TabsPage
     
   ],
   providers: [
