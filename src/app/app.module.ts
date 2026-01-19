@@ -16,7 +16,6 @@ import {BarcodeScanner} from '@ionic-native/barcode-scanner';
 import { ComponentsModule } from '../components/components.module';
 import { TabsPage } from '../pages/tabs/tabs';
 import {LoginPage} from '../pages/login/login';
-import { HistoryPage } from '../pages/history/history';
 import {PaymentPage} from '../pages/payment/payment'
 import {ProfilePage} from '../pages/profile/profile'
 import {HowtousePage} from '../pages/howtouse/howtouse'
@@ -33,7 +32,6 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     SignInPage,
     LoginPage,
     TabsPage,
-    HistoryPage,
     HowtousePage,
     ProfilePage,
     PaymentPage
@@ -54,7 +52,6 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     SignInPage,
    TabsPage,
    LoginPage,
-   HistoryPage,
    HowtousePage,
    ProfilePage,
    PaymentPage
