@@ -20,6 +20,25 @@ html, body, ion-app, ion-content, ion-page, .nav-decor {
     background-color: transparent !important;
   }
 
+// Hide scrollbars
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scroll-content {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
   
 .spacing {
     margin-top: 60px;
@@ -59,10 +78,49 @@ html, body, ion-app, ion-content, ion-page, .nav-decor {
 .tab-button-icon{
     color: #74C164 !important;
 }
+
+// Bottom tabs: icons only, bigger, with a separating line
+.tabs .tab-button-text {
+    display: none;
+}
+
+.tabs .tab-button-icon {
+    font-size: 28px;
+}
+
+.tabs .tabbar {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05) inset;
+}
 #hamburger{
     color: green;
 }
 ion-sidemenu{
 color: green;
+}
+
+// Adjust navbar content padding downward and center items
+ion-navbar .toolbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 24px;
+}
+
+ion-navbar .bar-buttons {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-top: 24px;
+}
+
+ion-navbar .toolbar-title {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
 }
 

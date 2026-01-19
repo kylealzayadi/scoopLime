@@ -16,6 +16,66 @@ button{
     margin-top: 80px;
 }
 
+#pp {
+    width: 350px;
+    height: auto;
+}
+
+.logo-animate {
+    animation: bounceIn 1.2s ease-out;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.enter-button {
+    display: block;
+    margin: 15px auto 0 auto;
+    margin-left: calc(50% - 75px);
+    width: 150px;
+    height: 50px;
+    background-color: #2d7a2e;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    animation: fadeIn 2s ease-in 1s both;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .item{
     border: none !important;
 }
