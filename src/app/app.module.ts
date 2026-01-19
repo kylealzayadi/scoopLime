@@ -18,7 +18,6 @@ import { TabsPage } from '../pages/tabs/tabs';
 import {LoginPage} from '../pages/login/login';
 import {PaymentPage} from '../pages/payment/payment'
 import {ProfilePage} from '../pages/profile/profile'
-import {HowtousePage} from '../pages/howtouse/howtouse'
 import { NavController } from 'ionic-angular';
 import { Screenshot } from '../../node_modules/@ionic-native/screenshot';
 import { DatabaseProvider } from '../providers/database/database';
@@ -32,7 +31,6 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     SignInPage,
     LoginPage,
     TabsPage,
-    HowtousePage,
     ProfilePage,
     PaymentPage
     
@@ -50,11 +48,10 @@ import { CameraPreview, CameraPreviewPictureOptions, CameraPreviewOptions, Camer
     ContactPage,
     HomePage,
     SignInPage,
-   TabsPage,
-   LoginPage,
-   HowtousePage,
-   ProfilePage,
-   PaymentPage
+  TabsPage,
+  LoginPage,
+  ProfilePage,
+  PaymentPage
     
   ],
   providers: [
